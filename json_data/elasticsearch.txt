@@ -1,0 +1,143 @@
+{
+        "_index" : "scm-tracking-ml",
+        "_type" : "_doc",
+        "_id" : "YT2023921266023213",
+        "_score" : 1.0,
+        "_source" : {
+          "Id" : "YT2023921266023213",
+          "TrackingNumber" : "YT2023921266023213",
+          "lstm_score" : "IN_US",
+          "lstm_detail" : {
+            "COMPLETED" : 0.0,
+            "DELIVERED_GUARANTEE" : 0.0,
+            "IN_US" : 1.0,
+            "RETURN_TO_SENDER" : 0.0,
+            "TRACKING_AVAILABLE" : 0.0,
+            "TRACKING_ONLINE" : 0.0
+          },
+          "bilstm_score" : "",
+          "bilstm_detail" : {
+            "COMPLETED" : "0",
+            "DELIVERED_GUARANTEE" : "0",
+            "IN_US" : "0",
+            "RETURN_TO_SENDER" : "0",
+            "TRACKING_AVAILABLE" : "0",
+            "TRACKING_ONLINE" : "0"
+          },
+          "bert_score" : "IN_US",
+          "bert_detail" : {
+            "COMPLETED" : 0.048,
+            "DELIVERED_GUARANTEE" : -1.98,
+            "IN_US" : 5.626,
+            "RETURN_TO_SENDER" : 0.569,
+            "TRACKING_AVAILABLE" : -2.653,
+            "TRACKING_ONLINE" : -2.61
+          },
+          "TrackLogs" : [
+            {
+              "a" : "2020-08-10 10:58",
+              "c" : "美国",
+              "d" : "",
+              "z" : " The United States [United States] has properly invested."
+            },
+            {
+              "a" : "2020-08-10 07:10",
+              "c" : "美国",
+              "d" : "",
+              "z" : " United States [United States] arrange delivery."
+            },
+            {
+              "a" : "2020-08-10 06:11",
+              "c" : "美国",
+              "d" : "",
+              "z" : " The United States has reached the [United States] delivery office."
+            },
+            {
+              "a" : "2020-08-08 11:49",
+              "c" : "美国",
+              "d" : "",
+              "z" : " The U.S. arrives at [U.S.] Secondary Processing Center."
+            },
+            {
+              "a" : "2020-08-08 11:49",
+              "c" : "美国",
+              "d" : "",
+              "z" : " The U.S. arrives at a foreign transit bureau."
+            },
+            {
+              "a" : "2020-07-16 16:08",
+              "c" : "郑州市",
+              "d" : "",
+              "z" : " Zhengzhou City has been handed over to the carrier for transportation."
+            },
+            {
+              "a" : "2020-07-15 15:46",
+              "c" : "上海市",
+              "d" : "",
+              "z" : " Shanghai has been handed over to the carrier for transportation."
+            },
+            {
+              "a" : "2020-07-11 10:49",
+              "c" : "杭州市",
+              "d" : "",
+              "z" : " Depart from Hangzhou [Hangzhou International Processing Center], the next stop is [Shanghai Exchange Station]."
+            },
+            {
+              "a" : "2020-07-10 23:38",
+              "c" : "杭州市",
+              "d" : "",
+              "z" : " Hangzhou [Hangzhou International Processing Center] has been exported and sealed directly."
+            },
+            {
+              "a" : "2020-07-10 21:27",
+              "c" : "杭州市",
+              "d" : "",
+              "z" : " Hangzhou [Hangzhou International Processing Center] returned, remarks: security check returned."
+            },
+            {
+              "a" : "2020-07-09 13:09",
+              "c" : "上海市",
+              "d" : "",
+              "z" : " Shanghai [Shanghai Exchange Station] returned."
+            },
+            {
+              "a" : "2020-07-07 10:46",
+              "c" : "上海市",
+              "d" : "",
+              "z" : " Shanghai returned."
+            },
+            {
+              "a" : "2020-07-07 07:49",
+              "c" : "上海市",
+              "d" : "",
+              "z" : " Shanghai has been handed over to the carrier for transportation."
+            },
+            {
+              "a" : "2020-07-06 15:13",
+              "c" : "上海市",
+              "d" : "",
+              "z" : " Arrive in Shanghai [Shanghai Exchange Station] (transit)."
+            },
+            {
+              "a" : "2020-07-05 22:36",
+              "c" : "杭州市",
+              "d" : "",
+              "z" : " Hangzhou [Hangzhou International Processing Center] has been exported and sealed directly."
+            },
+            {
+              "a" : "2020-07-05 18:39",
+              "c" : "杭州市",
+              "d" : "",
+              "z" : " Depart from Hangzhou [International Lollipop Sales Department], the next stop is [Hangzhou]."
+            },
+            {
+              "a" : "2020-07-05 15:20",
+              "c" : "杭州市",
+              "d" : "",
+              "z" : "Hangzhou [International Lollipop Sales Department] has been received and mailed, solicitors: Deng Mingfu, Tel:."
+            }
+          ],
+          "update_time" : "2021-03-30T20:53:54.302040",
+          "last_log_time" : "2020-08-10 10:58"
+        }
+      }

@@ -1,0 +1,19 @@
+CREATE TABLE "public"."data_scm_tracking_ml" (
+  "id" text COLLATE "pg_catalog"."default" NOT NULL,
+  "tracking_number" text COLLATE "pg_catalog"."default" NOT NULL,
+  "update_time" timestamp(6),
+  "last_log_time" timestamp(6),
+  "lstm_status" text COLLATE "pg_catalog"."default",
+  "bilstm_status" text COLLATE "pg_catalog"."default",
+  "bert_status" text COLLATE "pg_catalog"."default",
+  "wrong_order" int8,
+  CONSTRAINT "data_scm_tracking_ml_pk" PRIMARY KEY ("id")
+)
+;
+
+ALTER TABLE "public"."data_scm_tracking_ml" 
+  OWNER TO "postgres";
+
+CREATE UNIQUE INDEX "tracking_number_idx" ON "public"."data_scm_tracking_ml" USING btree (
+  "tracking_number" COLLATE "pg_catalog"."default" "pg_catalog"."text_ops" ASC NULLS LAST
+);

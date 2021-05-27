@@ -1,0 +1,162 @@
+{
+  "sign": "",
+  "event": "TRACKING_UPDATED",
+  "data": {
+        "number": "YT2106521236002562",
+        "track": {
+            "b": 301,
+            "c": 2105,
+            "e": 40,
+            "f": 13,
+            "w1": 190008,
+            "w2": 0,
+            "is1": 1,
+            "is2": 0,
+            "hs": 1171878180,
+            "z0": {
+                "a": "2021-03-19 17:02",
+                "c": "San Pedro,CA",
+                "d": "",
+                "z": "delivered"
+            },
+            "ln1": "en",
+            "ygt9": 0,
+            "ygt1": 0,
+            "ygt2": 0,
+            "ylt9": "2079-01-01 00:00:00",
+            "ylt1": "2021-03-29 15:44:51",
+            "ylt2": "2079-01-01 00:00:00",
+            "z9": [],
+            "z1": [
+                {
+                    "a": "2021-03-19 04:55",
+                    "c": "SAN PEDRO,CA",
+                    "d": "",
+                    "z": "Delivered at Sort Facility"
+                },
+                {
+                    "a": "2021-03-16 23:46",
+                    "c": "San Pedro,CA",
+                    "d": "",
+                    "z": "depart ship ptnr site usps awaits item"
+                },
+                {
+                    "a": "2021-03-16 11:44",
+                    "c": "San Pedro,CA",
+                    "d": "",
+                    "z": "arrived ship ptnr site usps awaits item"
+                },
+                {
+                    "a": "2021-03-16 11:44",
+                    "c": "Rancho Dominguez,CA",
+                    "d": "",
+                    "z": "hub scanned"
+                },
+                {
+                    "a": "2021-03-15 18:43",
+                    "c": "",
+                    "d": "",
+                    "z": "departed from facility"
+                },
+                {
+                    "a": "2021-03-15 18:43",
+                    "c": "",
+                    "d": "",
+                    "z": "delivery to local courier"
+                },
+                {
+                    "a": "2021-03-15 18:43",
+                    "c": "",
+                    "d": "",
+                    "z": "arrived at sort facility"
+                },
+                {
+                    "a": "2021-03-14 12:30",
+                    "c": "",
+                    "d": "",
+                    "z": "custom clearance completed"
+                },
+                {
+                    "a": "2021-03-14 10:31",
+                    "c": "",
+                    "d": "",
+                    "z": "arrived at airport of destination，clearance in process"
+                },
+                {
+                    "a": "2021-03-14 09:58",
+                    "c": "",
+                    "d": "",
+                    "z": "departed from airport of origin"
+                },
+                {
+                    "a": "2021-03-12 10:28",
+                    "c": "",
+                    "d": "",
+                    "z": "arrive at international airport to abroad"
+                },
+                {
+                    "a": "2021-03-11 15:10",
+                    "c": "",
+                    "d": "",
+                    "z": "departed facility in processing center"
+                },
+                {
+                    "a": "2021-03-10 00:55",
+                    "c": "SHENZHEN",
+                    "d": "",
+                    "z": "departed facility in shenzhen"
+                },
+                {
+                    "a": "2021-03-09 03:24",
+                    "c": "SHENZHEN",
+                    "d": "",
+                    "z": "arrived at sort facility shenzhen"
+                },
+                {
+                    "a": "2021-03-06 10:00",
+                    "c": "",
+                    "d": "",
+                    "z": "shipment information received"
+                },
+                {
+                    "a": "2021-03-19 17:02",
+                    "c": "San Pedro,CA",
+                    "d": "",
+                    "z": "delivered"
+                },
+                {
+                    "a": "2021-03-19 07:58",
+                    "c": "San Pedro,CA",
+                    "d": "",
+                    "z": "out for delivery"
+                },
+                {
+                    "a": "2021-03-19 07:47",
+                    "c": "San Pedro,CA",
+                    "d": "",
+                    "z": "arrival at unit"
+                },
+                {
+                    "a": "2021-03-19 06:32",
+                    "c": "San Pedro,CA",
+                    "d": "",
+                    "z": "acceptance at destination"
+                }
+            ],
+            "z2": [],
+            "yt": "",
+            "zex": {
+                "trN": "",
+                "trC": 0,
+                "psex": 4001,
+                "sa": false,
+                "dt": "1615024800000",
+                "dtS": "1615024800000",
+                "dtP": "1616173320000",
+                "dtD": "1616173320000",
+                "dtL": "1616173320000"
+            }
+        }
+    }
+    
+}

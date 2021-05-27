@@ -1,0 +1,14 @@
+uvicorn
+fastapi 
+regex
+requests
+pydantic 
+nltk
+tensorflow 
+keras
+pandas
+fasttext
+torch
+transformers
+py-healthcheck
+flask
