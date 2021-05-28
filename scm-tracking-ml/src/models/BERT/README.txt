@@ -1,0 +1,1 @@
+BERT model is not uploaded to Git in that it has the size of over 100MB
