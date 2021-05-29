@@ -101,7 +101,7 @@ if __name__ == "main":
 
     @app.get("/scm/tracking/ml/healthcheck")
     async def healthcheck():
-        """Return of health check score of api
+        """Return of health check score of server
         """
         # return {"status": "200 OK"}
         message, status_code, headers = health.run()

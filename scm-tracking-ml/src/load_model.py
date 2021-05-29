@@ -89,7 +89,7 @@ class CheckWrongOrder:
 
 class LSTM:
     def __init__(self):
-        self.root_path = "models/LSTM/2021-02-07_16-57-40.769/"
+        self.root_path = "models/LSTM/2021-05-13_11-41-49.777/"
         self.model_path = self.root_path + "model.h5"
         self.tokenizer_path = self.root_path + "tokenizer.pickel"
         self.MAX_SEQUENCE_LENGTH = 256
