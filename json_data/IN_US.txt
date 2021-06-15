@@ -35,18 +35,6 @@
             "z1":
             [
                 {
-                    "a": "2020-04-17 09:01",
-                    "c": "BLOOMINGTON,IN 47403",
-                    "d": "",
-                    "z": "delivery exception"
-                },
-                {
-                    "a": "2020-04-08 08:10",
-                    "c": "BLOOMINGTON,IN 47403",
-                    "d": "",
-                    "z": "return to sender"
-                },
-                {
                     "a": "2020-04-08 06:10",
                     "c": "BLOOMINGTON,IN 47403",
                     "d": "",

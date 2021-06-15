@@ -1,0 +1,85 @@
+{
+    "sign": "",
+    "event": "TRACKING_UPDATED",
+    "data":
+    {
+        "number": "YT2107221272062357",
+        "tag": "",
+        "track":
+        {
+            "b": 301,
+            "c": 2105,
+            "e": 50,
+            "f": -1,
+            "w1": 190008,
+            "w2": 0,
+            "is1": 1,
+            "is2": 0,
+            "hs": 1101410634,
+            "z0":
+            {
+                "a": "2020-04-17 09:01",
+                "c": "BLOOMINGTON,IN 47403",
+                "d": "",
+                "z": "delivery exception"
+            },
+            "ln1": "en",
+            "ygt9": 0,
+            "ygt1": 0,
+            "ygt2": 0,
+            "ylt9": "2079-01-01 00:00:00",
+            "ylt1": "2021-01-01 21:38:20",
+            "ylt2": "2079-01-01 00:00:00",
+            "z9":
+            [],
+            "z1":
+            [
+                {
+                    "a": "2020-03-29 15:00",
+                    "c": "SHANGHAI - CHINA",
+                    "d": "",
+                    "z": "Arrive at international airport to abroad"
+                },
+                {
+                    "a": "2020-03-28 15:00",
+                    "c": "SHENZHEN",
+                    "d": "",
+                    "z": "Departed Facility In processing center"
+                },
+                {
+                    "a": "2020-03-28 02:50",
+                    "c": "SHENZHEN",
+                    "d": "",
+                    "z": "Shipment has been processed in operational center"
+                },
+                {
+                    "a": "2020-03-27 19:33",
+                    "c": "SHENZHEN",
+                    "d": "",
+                    "z": "Arrived at Sort Facility SHENZHEN"
+                },
+                {
+                    "a": "2020-03-23 15:14",
+                    "c": "",
+                    "d": "",
+                    "z": "Shipment information received"
+                }
+            ],
+            "z2":
+            [],
+            "yt": "",
+            "zex":
+            {
+                "trN": "",
+                "trC": 0,
+                "psex": 5006,
+                "sa": false,
+                "dt": "1584976440000",
+                "dtS": "1584976440000",
+                "dtP": "0",
+                "dtD": "0",
+                "dtL": "1587114060000"
+            }
+        }
+    }
+}

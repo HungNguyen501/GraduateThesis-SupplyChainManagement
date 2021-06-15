@@ -4,16 +4,20 @@ from json import loads
 import requests
 from elasticsearch import Elasticsearch
 from datetime import datetime
+import warnings
+warnings.filterwarnings("ignore")
 
-
-es = Elasticsearch(['http://localhost:9200'])
-consumer = KafkaConsumer(
-    'scm-tracking-ml',
-     bootstrap_servers=['localhost:9092'],
-     auto_offset_reset='earliest',
-     enable_auto_commit=True,
-     group_id='my-group',
-     value_deserializer=lambda x: loads(x.decode('utf-8')))
+try:
+    es = Elasticsearch(['http://localhost:9200'])
+    consumer = KafkaConsumer(
+        'scm-tracking-ml',
+         bootstrap_servers=['localhost:9092'],
+         auto_offset_reset='earliest',
+         enable_auto_commit=True,
+         group_id='my-group',
+         value_deserializer=lambda x: loads(x.decode('utf-8')))
+except Exception as ex:
+    print(f"\tException: {str(ex)}")
 
 
 def call_ml_service(body):

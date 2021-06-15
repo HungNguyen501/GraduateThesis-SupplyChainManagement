@@ -2,6 +2,9 @@ import pandas as pd
 import fasttext
 import json
 import requests
+import warnings
+warnings.filterwarnings("ignore")
+fasttext.FastText.eprint = lambda x: None
 
 class TRANSLATION:
     def __init__(self):
