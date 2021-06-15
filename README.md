@@ -3,7 +3,7 @@ This project is to serve graduate
 
 <b>Short description:</b>
 
-- The project is to simulate a phase that takes place in E-Commerce. Particularyly, when a order has new event in transport, 17Track Provider updates log to customer (ecommerce company) via Webhook. So, this system gets log from Kafka and puts to ML service to detect status of log to support Customer Service Department.
+- The project is to simulate a phase that takes place in E-Commerce. Particularyly, when a order has new event in transport, 17Track Provider updates log to customer (ecommerce company) via Webhook. So, this system gets logs from Kafka and puts them to ML service to detect status of logs to support Customer Service Department.
 - Models used to detect status are: LSTM and BERT.
 
 <b>Overview:</b>
