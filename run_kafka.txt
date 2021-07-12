@@ -1,0 +1,9 @@
+/* run Kafka zookeeper */
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+/* run kafka server */
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+
+/* create a topic */
+.\bin\kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic scm-tracking-ml
